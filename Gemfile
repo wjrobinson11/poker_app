@@ -8,6 +8,17 @@ end
 gem 'annotate'
 gem 'pry'
 gem 'devise'
+
+# For ENV variablees
+gem 'figaro'
+# For deploy configuration
+gem 'capistrano'
+gem 'capistrano-bundler'
+gem 'capistrano-passenger', '>= 0.1.1'
+gem 'capistrano-rails'
+gem 'capistrano-rvm'
+gem 'capistrano-figaro-yml', '~> 1.0.2'
+
 gem 'simple_token_authentication', '~> 1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
